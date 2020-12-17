@@ -51,7 +51,7 @@ framework.on('spawn', (bot, id, actorId) => {
 
 //Process incoming messages
 
-let responded = false;
+let responded = true;
 /* On mention with command
 ex User enters @botname help, the bot will write back in markdown
 */
